@@ -1,0 +1,13 @@
+حذف شاخه از گیت
+در صورتی که ادغام نشده باشد خطا میدهد
+git branch -d feature/hello-world
+
+
+حذف شاخه از گیت هاب
+در صورتی که ادغام نشده باشد خطا نمی دهد و پاک می کند
+git branch -D feature/hello-world
+------------------------------------------------------------
+
+حذف شاخه از گیت هاب
+git push origin --delete feature/hello-world
+git push origin -d feature/hello-world

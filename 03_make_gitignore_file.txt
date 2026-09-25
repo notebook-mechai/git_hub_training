@@ -1,0 +1,12 @@
+ساخت فایل
+.gitignore
+------------------------------
+
+# در مک/لینوکس:
+touch .gitignore
+
+# در ویندوز (PowerShell):
+New-Item .gitignore
+
+# در ویندوز (CMD):
+echo. > .gitignore
