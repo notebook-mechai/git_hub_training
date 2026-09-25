@@ -111,6 +111,9 @@ git push -u origin feature/hello-world
 ابتدا به شاخه اصلی برگردید
 git checkout main
 
+قبل از ادغام جهت بروزرسانی اطلاعات مخزن
+git fetch --all
+
 ادغام  شاخه ایجاد شده با شاخه اصلی
 git merge feature/hello-world
 
